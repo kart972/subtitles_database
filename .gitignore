@@ -1,0 +1,13 @@
+# Ignore everything
+/*
+*.wav
+
+# Allow directories so Git can traverse to find .srt files
+!*/
+
+# Un-ignore all .srt files anywhere
+!*.srt
+!**/*.srt
+!README.md
+!.gitignore
+
